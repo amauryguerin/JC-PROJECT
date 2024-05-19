@@ -1,0 +1,38 @@
+/* VARIABLE */
+:root {
+    --color--white: #FBFAF5;
+    --color--black: #0b0b0b;
+    --color--grey: #e0e0e0;
+}
+
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lemon Milk";
+    font-size: 1.5rem;
+    background-color: var(--color--white);
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: var(--color--black);
+}
+
+p {
+    margin: 0;
+}
